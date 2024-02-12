@@ -1,0 +1,210 @@
+
+@media (max-width: 400px){
+    .information{
+        margin-top: 50%;
+        transform: translateY(-50%);
+        padding-left: 1rem;
+    }
+    .about-para p{
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+        
+    }
+
+    .information h1{
+        font-size: 24px;
+        margin-top: 5rem;
+        font-weight: 400;
+    }
+    .information p{
+        font-size: 15px;
+        
+    }
+    .dot-img img{
+        opacity: 1;
+        z-index: -1;
+        margin-top: 17rem;
+        margin-left: -2rem;
+        
+      } 
+      #Logo{
+     margin-left: -7rem;
+      }
+}
+@media (max-width: 800px) { 
+    .about-para{
+      padding: 10px;
+    }
+    .hide{
+        display: none;
+    }
+    .hide-menubar{
+        display: block;
+    }
+    .dot-img1{
+      opacity: 1;
+    }
+    ul li a span{
+      position: relative;
+      left: 20px;
+    }
+    .project2{
+      display: none;
+    }
+    .hide-menubar{
+        padding-top: 1rem;
+    }
+    .content{
+        display: grid;
+        grid-template: repeat(3,200px)/repeat(1,200px);
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 10px;
+     }
+     .button{
+        width: 45px;
+        position: none;
+        left: 0;
+        bottom:0;
+     }
+     #images-logo svg{
+        width: 50px;
+        height: 50px;
+        position: none;
+        left: 0;
+        bottom: 0;
+      }
+      #familior{
+        height: fit-content;
+      }
+ }
+ @media (max-width: 400px) { 
+    .sidebar{
+        width: 100%;
+    }
+ }
+
+ @media (max-width :400px) {
+    .container1{
+      display: grid;
+      grid-template: repeat(3, 150px) / repeat(2, 150px);
+      gap: 3px;
+      place-content: center;
+      transform: translate(0.5%,16%);
+    }
+    .pro{
+      font-size: 30px;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .about-para{
+  padding: 10rem;
+  width: 1200px;
+  height: 500px;
+}
+.project1{
+  position: relative;
+  top: 90px;
+}
+   }
+   @media (max-width: 576px) { 
+    .information h1{
+      font-size: 30px;
+    }
+    .container1{
+      display: grid;
+      grid-template: repeat(3, 150px) / repeat(2, 150px);
+      gap: 3px;
+      place-content: center;
+      transform: translate(0.5%,16%);
+    }
+    .about-para p{
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.5;
+ 
+   }
+   .dot-img{
+    display: none;
+   }
+  }
+
+   @media (min-width: 576px) { 
+    .information h1{
+      font-size: 35px;
+    }
+    .about-para p{
+      width: 80%;
+      margin-left: 4rem;
+   }
+   .container1{
+    display: grid;
+    grid-template: repeat(3, 220px) / repeat(2, 220px);
+    gap: 3px;
+    place-content: center;
+    transform: translate(0.5%,16%);
+  }
+    }
+   
+   
+   @media (min-width: 768px) { 
+    .information h1{
+      font-size: 40px;
+    }
+    .project2{
+      display: none;
+    }
+    .about-para p{
+      width: 80%;
+      margin-left: 4rem;
+   }
+    }
+   
+
+   @media (min-width: 992px) { 
+    .information h1{
+      font-size: 50px;
+    }
+    .project2{
+      display: none;
+    }
+    .about-para p{
+       width: 80%;
+    }
+    }
+   
+   @media (min-width: 1200px) {
+    .information h1{
+      font-size: 60px;
+    }
+    .project2{
+      display: block;
+    }
+    .about-para p{
+      width: 80%;
+   }
+    }
+  
+   @media (min-width: 1400px) { 
+    .information h1{
+        font-size: 60px;
+    }
+    .project2{
+      display: block;
+    }
+    .about-para p{
+      width: 90%;
+      position: relative;
+      bottom: 30px;
+   }
+   .container1{
+    display: grid;
+    grid-template: repeat(3, 290px) / repeat(2, 290px);
+    gap: 3px;
+    place-content: center;
+    transform: translate(0.5%,16%);
+  }
+     }
+ 
